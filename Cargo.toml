@@ -1,0 +1,17 @@
+[package]
+name = "verbose-system"
+version = "0.1.0"
+edition = "2021"
+authors = ["rerphaGenerate"]
+description = "A verbose, well-documented FizzBuzz application in Rust"
+repository = "https://github.com/Rerpha/verbose-system"
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
